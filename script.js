@@ -99,9 +99,10 @@ document.getElementById("myBtn").addEventListener("click", function(){
         elapsed = (Date.now() - startTime)/1000
         document.getElementById("myTimer").textContent = elapsed.toFixed(3)
         }, 10)
-        }
-    running = true
-    btn.textContent = "Stop"
+        running = true
+        btn.textContent = "Stop" 
+    }
+    
 })
 // STEP 13: Create a variable to track whether the timer is
 //          currently running (let running = true;)
